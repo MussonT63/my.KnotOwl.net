@@ -1,0 +1,8 @@
+dns record:
+	cname  trevor   mussont63.github.io.
+
+github: Trevor.KnotOwl.net
+settings / pages (menu on left):
+	deploy from branch
+	main, save
+Custom domain = trevor.knotowl.net, save
