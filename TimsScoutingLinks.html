@@ -12,6 +12,10 @@
     hr { max-width: 222px; margin-left:0; }
     .filename1 { margin: 0em 0.25em; color: green; position: fixed; top: 0px; left: 0px; }
     */
+    table { 
+      margin-left: auto;
+      margin-right: auto;
+    }
     .filename { color: green; }
     .bigger { font-size: 170%; }
     a:link, a:visited, a:hover, a:active { text-decoration: none; color:blue; }
@@ -31,11 +35,9 @@
 </head>
 <body>
   <script type="text/javascript" src="/ChiefOkemosDistrict/Advancement/menu.js"></script>
-	<!--
-  <table border="1">
+  <table border="0">
     <tr>
       <td>
-	!-->
         <kbd class="filename" id="filename"></kbd>
         <ul class="bigger">
           <li>
@@ -93,11 +95,9 @@
             <a href="http://Troop2EL.org/">Troop2EL.org</a>
           </li>
         </ul>
-	<!--
       </td>
     </tr>
   </table>
-	!-->
   <script>
     document.getElementById("filename").innerHTML = window.location.pathname.split("/").pop(); 
   </script> 
